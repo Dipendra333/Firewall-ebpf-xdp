@@ -15,7 +15,7 @@ A simple XDP/eBPF firewall that blocks packets based on the source IPv4 address 
 
 Compile the project:
 
-```bash
+```
 make
 ```
 
