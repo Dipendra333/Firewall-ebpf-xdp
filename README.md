@@ -1,4 +1,3 @@
-````markdown
 # XDP Firewall
 
 A simple XDP/eBPF firewall that blocks packets based on the source IPv4 address using a BPF hash map.
@@ -94,5 +93,3 @@ sudo ip link set dev <INTERFACE> xdp off
 ```bash
 make clean
 ```
-````
-
