@@ -1,0 +1,3 @@
+### XDP based firewall 
+
+XDP(express data path) is technology used in conjunction eBPF(extended Berkley Packet Filter) for userland packet processing. At GBbps throughout NIC cards traditional packet processing in the linux kernel becomes a bottleneck itself. In order to increase the rate of packet processing XDP paired with eBPF aims to process the packets in userspace in order to avoid the kernel's networking stack. [Life of a packet](https://kernel-internals.org/net/life-of-packet-rx/) presents a detailed view of packet processing in the linux kernel when a packet is received in the network interface card. 
